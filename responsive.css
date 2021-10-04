@@ -1,0 +1,40 @@
+@media screen and (max-width:375px){
+    body{
+        background-color: rgba(218,225,253,255);
+    }
+    main{
+        width: 85%;
+        height: 65%;
+    }
+
+    main h2{
+        font-size: 1.4rem;
+        margin: 1rem;
+    }
+
+    main .marketing-message{
+        width: 78%;
+        font-size: 1rem;
+        margin-bottom: .3rem;
+    }
+
+    .container{
+        width: 85;
+        padding: 1rem .7rem;
+    }
+
+    .annual-plan{
+        width: 85%; 
+    }
+
+    .annual-plan h3{
+        font-size: 1rem;
+    }
+
+    .buttons button:nth-child(2){
+        padding: 0;
+        margin-top: .6rem;
+    }
+
+    
+}

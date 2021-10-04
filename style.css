@@ -18,7 +18,7 @@ body{
     background-repeat: no-repeat;
 }
 main{
-    width: 30%;
+    width: 33%;
     height: 70%;
     display: flex;
     align-items: center;
@@ -34,22 +34,22 @@ img{
     border-radius: 17px 17px 0 0;
 }
 
-h2{
+main h2{
     margin: .5rem;
-    font-size: 1.5rem;
+    font-size: 3.5rem;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
 }
 .marketing-message{
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     margin: 0 2.5rem;
     color: #8a8d9e;
 }
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem 1.3rem;
     margin: 1rem 1.5rem;
@@ -57,7 +57,7 @@ h2{
     border-radius: 17px;
     background-color: #f8f9fe;
     width: 80%;
-
+    height: auto;
 }
 
 .annual-plan{
@@ -70,16 +70,16 @@ h2{
 .annual-plan > h3{
     font-weight: 700;
     color: hsl(223, 47%, 23%);
-    font-size: 1.2rem;
+    font-size: 2.3rem;
 }
 
 .annual-plan > p{
     color: #8a8d9e;
-    font-size: .9rem;
+    font-size: 1.7rem;
 }
 
 #icon-music{
-    width: 2.6rem;
+    width: 10%;
     height: auto;
 }
 
@@ -90,15 +90,15 @@ h2{
     gap: .5rem;
     margin-bottom: 2rem;
     width: 100%;
+    height: 15%;
     justify-content: center;
     align-items: center;
 }
 button{
     border: none;
     padding: .8rem;
-    font-size: .9rem;
+    font-size: 1.7rem;
     font-weight: 700;
-    
 }
 
 .container > button{
@@ -117,6 +117,7 @@ button{
     color: white;
     border-radius: 8px;
     width: 80%;
+    height: 50%;
 }
 .buttons button:nth-child(1):hover{
     background-color: #766cf1;
@@ -126,13 +127,14 @@ button{
     background-color: white;
     color: #8a8d9e;
     border-radius: 8px;
+    width: 50%;
 }
 .buttons button:nth-child(2):hover{
     color: hsl(223, 47%, 23%);
 }
 
 .attribution{
-    font-size: .7rem;
+    font-size: 1.2rem;
     margin-bottom: .2rem;
 }
 a:link {
